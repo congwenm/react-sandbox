@@ -9,6 +9,7 @@ ReactDOM.render(
 );
 
 import Tether from 'tether'
+// why do you have to scroll
 document.addEventListener('DOMContentLoaded', function(event) {
   new Tether({
     element: '.comments',
@@ -16,7 +17,6 @@ document.addEventListener('DOMContentLoaded', function(event) {
     attachment: 'top right',
     targetAttachment: 'top left'
   })
-
 
   new Tether({
     element: '.yellowBox',
