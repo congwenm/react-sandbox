@@ -5,11 +5,12 @@
   "dependencies": {
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
-    "tether": "^1.4.0"
+    "tether": "^1.4.0",
+    "tether-shepherd": "^1.8.1"
   },
   "devDependencies": {
-    "npm-run-all": "^4.0.2",
     "node-sass": "^4.5.2",
+    "npm-run-all": "^4.0.2",
     "react-scripts": "0.9.5"
   },
   "scripts": {
